@@ -5,9 +5,10 @@ const bot = new commando.Client({
 });
 
 bot.registry.registerGroup('random','Random');
-bot.registry.registerGroup('reddit','Reddit');
+bot.registry.registerGroup('reddit','Reddit APIs');
+bot.registry.registerGroup('soundboard','Sound Board');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login(process.env.BOT_TOKEN);
-//bot.login('Mzg5OTk0MzI0OTI0MDM5MTY5.DRDqCw.gLRONSxUZDmI5f6eaOrQSdEO9N0');
+//bot.login(process.env.BOT_TOKEN);
+bot.login('Mzg5OTk0MzI0OTI0MDM5MTY5.DRDqCw.gLRONSxUZDmI5f6eaOrQSdEO9N0');
