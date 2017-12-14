@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const commando = require('discord.js-commando');
 const bot = new commando.Client({
-    commandPrefix: 'aye nigga, can i get a clap'
+    commandPrefix: 'pls'
 });
 
 bot.registry.registerGroup('random','Random');
