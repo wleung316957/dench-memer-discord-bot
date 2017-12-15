@@ -7,7 +7,7 @@ class SoundCommand extends commando.Command {
             name: 'sound',
             group: 'soundboard',
             memberName: 'sound',
-            description: 'Collection of soundboards, format: plz sound (soundname) \n For a list of soundnames, simply type "plz sound" '
+            description: 'Collection of soundboards, format: pls sound (soundname) \n For a list of soundnames, simply type "plz sound" '
         });
     }
 
