@@ -12,7 +12,7 @@ class SoundCommand extends commando.Command {
     }
 
     async run(message, args) {
-        var sray = ['boo','clap','allah','illuminati','supahot']
+        var sray = ['boo','clap','allah','supahot']
         var selection = 'placeholder' 
         
         if (sray.indexOf(args) >= 0) {
