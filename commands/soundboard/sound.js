@@ -30,6 +30,7 @@ class SoundCommand extends commando.Command {
                 connection.disconnect();
                         })
                     })
+                .catch(console.error);
                 }
             else (message.reply('bot already in playing!'))
         }
