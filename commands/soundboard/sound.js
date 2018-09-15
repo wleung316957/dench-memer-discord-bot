@@ -17,6 +17,10 @@ class SoundCommand extends commando.Command {
         
         if (sray.indexOf(args) >= 0 || args == 'gymshoes') {
             selection = './assets/sounds/' + args + '.mp3'
+            
+            if (args == 'gymshoes') {
+                message.delete(0);
+            }
 
             const channel = message.member.voiceChannel;
             
