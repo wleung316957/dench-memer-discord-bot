@@ -15,7 +15,7 @@ class SoundCommand extends commando.Command {
         var sray = ['boo','clap','allah','supahot','cunt','type','ugly','sworn']
         var selection = 'placeholder' 
         
-        if (sray.indexOf(args) >= 0) {
+        if (sray.indexOf(args) >= 0 || args == 'gymshoes') {
             selection = './assets/sounds/' + args + '.mp3'
 
             const channel = message.member.voiceChannel;
